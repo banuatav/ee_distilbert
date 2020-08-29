@@ -1,0 +1,9 @@
+.vscode
+.DS_Store
+__pycache__
+venv
+doccano
+pdfs
+results
+model
+_test.py
