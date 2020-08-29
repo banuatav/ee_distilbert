@@ -4,6 +4,9 @@ import json
 from datetime import datetime
 import pdftotext
 
+# Ignore warnings
+import warnings
+warnings.filterwarnings("ignore")
 
 if not os.path.exists("data"):
     os.makedirs("data")

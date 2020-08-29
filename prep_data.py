@@ -5,6 +5,10 @@ from transformers import DistilBertTokenizerFast
 import numpy as np
 import torch
 
+# Ignore warnings
+import warnings
+warnings.filterwarnings("ignore")
+
 
 def read_conll(file_path):
     """

@@ -1,4 +1,8 @@
 import json
+# Ignore warnings
+import warnings
+warnings.filterwarnings("ignore")
+
 file = open("data/file.json1", "rb")
 
 lines = file.readlines()
