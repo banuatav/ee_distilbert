@@ -7,4 +7,5 @@ pdfs
 results
 logs
 model
+_temp
 _test.py

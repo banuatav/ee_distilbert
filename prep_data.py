@@ -1,5 +1,9 @@
-from pathlib import Path
 import re
+import os
+import shutil
+import gdown
+from pathlib import Path
+
 from sklearn.model_selection import train_test_split
 from transformers import DistilBertTokenizerFast
 import numpy as np
@@ -215,5 +219,22 @@ def create_dataset(file_path, verbose=False):
     return train_dataset, train_tags, val_dataset, val_tags, unique_tags, id2tag
 
 
+def download_data():
+
+    if os.path.exists("test_data"):
+        shutil.rmtree("test_data")
+        os.makedirs("test_data")
+    else:
+        os.makedirs("test_data")
+
+    url = 'https://drive.google.com/uc?id=1Z32tmKPjIVkHm88MWjirdNqPfeUgqfxp'
+    output = 'test_data/wnut17train.conll'
+    gdown.download(url, output, quiet=False)
+
+
 if __name__ == "__main__":
+
+    download_data()
     create_dataset(file_path='test_data/wnut17train.conll', verbose=True)
+
+    shutil.rmtree("test_data")
