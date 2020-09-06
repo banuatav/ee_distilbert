@@ -1,0 +1,7 @@
+{"id": 102, "text": "01234567890123456789", "meta": {}, "annotation_approver": null, "labels": [[7, 12, "issuer"]]}
+{"id": 102, "text": "01234567890123456789", "meta": {}, "annotation_approver": null, "labels": [[0, 12, "issuer"]]}
+{"id": 102, "text": "01234567890123456789", "meta": {}, "annotation_approver": null, "labels": [[0, 5, "issuer"], [7, 12, "issuer"]]}
+{"id": 102, "text": "01234567890123456789", "meta": {}, "annotation_approver": null, "labels": [[2, 5, "issuer"], [7, 12, "issuer"]]}
+{"id": 102, "text": "01234567890123456789", "meta": {}, "annotation_approver": null, "labels": [[0, 5, "issuer"], [17, 19, "issuer"]]}
+{"id": 102, "text": "01234567890123456789", "meta": {}, "annotation_approver": null, "labels": [[0, 5, "issuer"], [17, 18, "issuer"]]}
+{"id": 102, "text": "01234567890123456789", "meta": {}, "annotation_approver": null, "labels": [[0, 5, "issuer"], [17, 20, "issuer"]]}
